@@ -1,7 +1,7 @@
 const getBinaryData = async (token: string, baseUrl: string) => {
   try {
     // File path
-    const pathToBinaryUrls = path.join(__dirname, 'ccda_binary_urls.txt');
+    const pathToBinaryUrls = path.join(__dirname, 'binary.txt');
     // Get the file content
     const fileContent = fs.readFileSync(pathToBinaryUrls, 'utf-8');
     // Split the file content into an array of URLs
